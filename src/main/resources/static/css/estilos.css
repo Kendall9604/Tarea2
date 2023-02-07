@@ -1,0 +1,140 @@
+*{
+    background-color: black;
+}
+
+.encabezado{
+    position: absolute;
+    top: 3%;
+    left:0;
+    height: 30%;
+    width: 100%;
+    color: white;
+    padding-left:10px;
+    position: fixed;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-widght: 992px;
+    margin : 0 auto;
+
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none ;
+
+}
+
+
+
+.nav-menu{
+    display:flex ;
+    margin-right: 90px;
+    list-style: none;
+
+}
+
+.nav-menu-item{
+    font-size: 23px;
+    margin: 0 8px;
+    line-height: 50px;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.nav-menu-link:hover{
+    background-color: #ffe226;
+    transition: 0.7s;
+}
+
+
+.registrarse{
+    position: absolute;
+    top: 70%;
+    color: white;
+    background-color: black;
+
+}
+
+.contenido{
+    color: white;
+    top: 33%;
+    overflow: auto;
+    height: 70%;
+    width: 95%;
+
+    position:fixed;
+}
+
+.contenido h2{
+    text-align: center;
+}
+
+.texto {
+    top: 40%;
+}
+
+.textLateral{
+    position: absolute;
+    top: 210%;
+    left:40%;
+    height: 300px;
+    width: 900px;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+}
+
+.textoLista{
+    position: absolute;
+    top: 35%;
+    color: white;
+    height: 68% ;
+    overflow: auto;
+}
+
+.registro{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: white;
+}
+.ps{
+    position: absolute;
+    background-color: white;
+    top: 35%;
+    height: 65%;
+    width: 99%;  
+    overflow: auto;
+}
+#encabezadotabla {
+    font-size: 25px;
+    background-color: white;
+    
+}
+
+
+#tablaResumen tr {
+    font-size: 25px;
+    
+}
+
+#tablaResumen tr:nth-child(odd){
+    background-color:yellow;
+    color: green;
+    
+}
+#tablaResumen tr:nth-child(even){
+    background-color:white;
+    color: red;
+    
+}
+
+
